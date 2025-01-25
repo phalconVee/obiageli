@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uchenna Ogbuonyalu, CFA - Finance Professional & Mentor</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full nav-container shadow-lg z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="logo-container">
+                        <img src="img/logo.png" alt="Uchenna Ogbuonyalu Logo" class="h-12 w-auto">
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#mentorship" class="nav-link">Mentorship</a>
+                    <a href="#connect" class="nav-link">Connect</a>
+                    <a href="https://calendly.com/your-link" target="_blank" 
+                       class="booking-btn text-white px-6 py-2 rounded-lg font-semibold shadow-lg transform hover:scale-105 transition-all duration-300">
+                        Book a Session
+                    </a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-gray-900 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#about" class="block px-3 py-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-50">About</a>
+                <a href="#experience" class="block px-3 py-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-50">Experience</a>
+                <a href="#education" class="block px-3 py-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-50">Education</a>
+                <a href="#skills" class="block px-3 py-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-50">Skills</a>
+                <a href="#contact" class="block px-3 py-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-50">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section pt-20">
+        <!-- Background Images -->
+        <div class="hero-background"></div>
+        <div class="hero-background"></div>
+        <div class="hero-background"></div>
+        
+        <!-- Content -->
+        <div class="hero-content min-h-screen flex items-center justify-center">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-12">
+                    <!-- Text Content -->
+                    <div class="md:w-1/2 text-center md:text-left">
+                        <h1 class="text-4xl md:text-6xl font-bold tracking-tight fade-in-up">
+                            Uchenna Ogbuonyalu
+                            <span class="text-primary-lavender">, CFA, ACA</span>
+                        </h1>
+                        <p class="mt-6 text-xl md:text-2xl text-gray-200 fade-in-up" style="animation-delay: 0.2s">
+                            Empowering the next generation of finance leaders through mentorship and guidance
+                        </p>
+                        <div class="mt-10 space-x-4 fade-in-up" style="animation-delay: 0.4s">
+                            <a href="#mentorship" class="custom-button inline-block px-8 py-4 rounded-lg font-semibold shadow-lg">
+                                Start Your Journey
+                            </a>
+                            <a href="#connect" class="inline-block bg-transparent border-2 border-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300">
+                                Connect With Me
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Image -->
+                    <div class="md:w-1/2 flex justify-center fade-in-up" style="animation-delay: 0.3s">
+                        <div class="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden hero-image">
+                            <img src="img/uchenna.jpeg" alt="Uchenna Ogbuonyalu" class="object-cover w-full h-full">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Companies Section -->
+    <section class="companies-section">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Companies I've Worked With</h2>
+                <p class="text-gray-600">Proud to have collaborated with industry leaders</p>
+            </div>
+            <div class="companies-grid">
+                <img src="img/companies/alvarez-marsal.png" alt="Alvarez & Marsal - Global Professional Services" class="company-logo">
+                <img src="img/companies/goldman-sachs.png" alt="Goldman Sachs - Investment Banking" class="company-logo">
+                <img src="img/companies/deloitte.png" alt="Deloitte LLP - Professional Services" class="company-logo">
+                <img src="img/companies/pwc.png" alt="PricewaterhouseCoopers - Professional Services" class="company-logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">About Me</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 stagger-animation">
+                <div class="about-card">
+                    <div class="text-primary-purple mb-6">
+                        <i class="fas fa-chart-line text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Finance Expert</h3>
+                    <p class="text-gray-600">
+                        CFA Charterholder with expertise in investment banking and capital markets.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="text-primary-purple mb-6">
+                        <i class="fas fa-graduation-cap text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">MBA & BS</h3>
+                    <p class="text-gray-600">
+                        MBA diploma from the University of Virginia, Darden School of Business with focus on Management Science.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="text-primary-purple mb-6">
+                        <i class="fas fa-users text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Mentor</h3>
+                    <p class="text-gray-600">
+                        Passionate about empowering underrepresented professionals in finance.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="text-primary-purple mb-6">
+                        <i class="fas fa-globe text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Global Experience</h3>
+                    <p class="text-gray-600">
+                        International experience across US, UK, and Nigerian markets.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+        </div>
+    </section>
+
+    <!-- Mentorship Section -->
+    <section id="mentorship" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Empowering Future Leaders</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Dedicated to helping women, Black professionals, and minorities navigate their journey in finance 
+                    and business education. Let's break barriers together.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <!-- Career Navigation Card -->
+                <div class="mentorship-card bg-white p-8 rounded-xl shadow-lg">
+                    <div class="text-primary-purple mb-6">
+                        <i class="fas fa-compass mentorship-icon text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Career Navigation</h3>
+                    <p class="text-gray-600 mb-6">
+                        Guidance on breaking into finance, career transitions, and advancement strategies tailored for 
+                        underrepresented professionals.
+                    </p>
+                    <a href="https://calendly.com/your-link" target="_blank" 
+                       class="inline-block text-primary-purple font-semibold hover:text-secondary-purple">
+                        Schedule Career Consultation →
+                    </a>
+                </div>
+
+                <!-- MBA Journey Card -->
+                <div class="mentorship-card bg-white p-8 rounded-xl shadow-lg">
+                    <div class="text-primary-purple mb-6">
+                        <i class="fas fa-graduation-cap mentorship-icon text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">MBA Journey</h3>
+                    <p class="text-gray-600 mb-6">
+                        Expert advice on MBA applications, school selection, and maximizing your business school experience 
+                        as a minority candidate.
+                    </p>
+                    <a href="https://calendly.com/your-link" target="_blank" 
+                       class="inline-block text-primary-purple font-semibold hover:text-secondary-purple">
+                        Discuss MBA Plans →
+                    </a>
+                </div>
+
+                <!-- Financial Industry Insights Card -->
+                <div class="mentorship-card bg-white p-8 rounded-xl shadow-lg">
+                    <div class="text-primary-purple mb-6">
+                        <i class="fas fa-chart-line mentorship-icon text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Industry Insights</h3>
+                    <p class="text-gray-600 mb-6">
+                        Real-world perspectives on investment banking, consulting, and finance careers from someone who's 
+                        navigated the path.
+                    </p>
+                    <a href="https://calendly.com/your-link" target="_blank" 
+                       class="inline-block text-primary-purple font-semibold hover:text-secondary-purple">
+                        Get Industry Insights →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="text-center cta-gradient text-white p-12 rounded-2xl shadow-xl transform hover:scale-105 transition-all duration-300">
+                <h3 class="text-2xl font-bold mb-4">Ready to Take the Next Step?</h3>
+                <p class="text-lg mb-8 max-w-2xl mx-auto">
+                    Book a one-on-one session with me to discuss your career goals, MBA aspirations, or get personalized 
+                    guidance for your journey in finance.
+                </p>
+                <a href="https://calendly.com/your-link" target="_blank" 
+                   class="inline-block bg-soft-white text-deep-purple px-8 py-4 rounded-lg font-semibold shadow-lg border-2 border-primary-lavender hover:bg-primary-lavender hover:border-white hover:text-deep-purple transform hover:scale-105 transition-all duration-300">
+                    Schedule Your Free Session
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section id="connect" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Let's Connect</h2>
+                <p class="text-xl text-gray-600">Stay connected for mentorship opportunities and industry insights</p>
+            </div>
+
+            <div class="flex justify-center space-x-8 mb-12">
+                <a href="https://www.linkedin.com/in/uchenna-ogbuonyalu/" target="_blank" 
+                   class="social-icon flex flex-col items-center">
+                    <div class="social-icon-container p-4 rounded-full mb-2">
+                        <i class="fab fa-linkedin-in text-3xl"></i>
+                    </div>
+                    <span class="text-gray-600">LinkedIn</span>
+                </a>
+
+                <a href="https://twitter.com/uchenna-ogbuonyalu" target="_blank" 
+                   class="social-icon flex flex-col items-center">
+                    <div class="social-icon-container p-4 rounded-full mb-2">
+                        <i class="fab fa-twitter text-3xl"></i>
+                    </div>
+                    <span class="text-gray-600">Twitter</span>
+                </a>
+
+                <a href="https://instagram.com/uchenna-ogbuonyalu" target="_blank" 
+                   class="social-icon flex flex-col items-center">
+                    <div class="social-icon-container p-4 rounded-full mb-2">
+                        <i class="fab fa-instagram text-3xl"></i>
+                    </div>
+                    <span class="text-gray-600">Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-gradient pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Column -->
+                <div class="space-y-4">
+                    <h3 class="text-xl font-bold text-gray-900">Uchenna Ogbuonyalu</h3>
+                    <p class="text-gray-600">Empowering future leaders in finance through mentorship and guidance.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold text-gray-900">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#mentorship" class="footer-link">Mentorship</a></li>
+                        <li><a href="#connect" class="footer-link">Connect</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold text-gray-900">Contact</h4>
+                    <ul class="space-y-2">
+                        <li><a href="https://calendly.com/your-link" class="footer-link">Book a Session</a></li>
+                        <li><a href="mailto:your@email.com" class="footer-link">Email Me</a></li>
+                        <li><a href="https://linkedin.com/in/your-profile" class="footer-link">LinkedIn</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold text-gray-900">Need Guidance?</h4>
+                    <form class="space-y-3">
+                        
+                        <a href="https://calendly.com/your-link" 
+                                class="w-full custom-button text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300">
+                            Book a Session
+                        </a>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="pt-8 mt-8 border-t border-gray-200">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-600 text-sm">© 2024 Uchenna Ogbuonyalu. All rights reserved.</p>
+                    <div class="flex space-x-6 mt-4 md:mt-0">
+                        <a href="#" class="footer-link text-sm">Privacy Policy</a>
+                        <a href="#" class="footer-link text-sm">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu JavaScript -->
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+            if (!mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.add('slide-in');
+            }
+        });
+
+        // Close mobile menu when clicking menu items
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+
+        // Intersection Observer for timeline animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-scaleIn');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        document.querySelectorAll('.timeline-item').forEach((item) => {
+            observer.observe(item);
+        });
+    </script>
+</body>
+</html>
