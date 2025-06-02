@@ -312,6 +312,9 @@ body {
 .mentorship-card {
     transition: all 0.4s ease;
     border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .mentorship-card:hover {
@@ -325,6 +328,16 @@ body {
 
 .mentorship-card:hover .mentorship-icon {
     transform: scale(1.1) rotate(5deg);
+}
+
+.mentorship-card p {
+    flex-grow: 1;
+    margin-bottom: 1.5rem;
+}
+
+.mentorship-card a {
+    display: inline-block;
+    margin-top: auto;
 }
 
 /* Custom Scrollbar */
